@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sara Mascarenhas - Psicologia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config={
+            theme:{
+                extend:{
+                    colors:{
+                        cores:{
+                            fundo:'#A75D5D',
+                            titulo:'#D3756B',
+                            texto:'#F0997D',
+                            texto2:'#FFC3A1'
+                        },
+                    }, 
+                    fontFamily:{
+                        inter:['Tilt Neon', 'cursive']
+                    },
+                }
+            }
+        }
+        </script>
+</head>
+<body class="bg-cores-fundo pt-10  ">
+    <header class="bg-cores-fundo w-screen h-14 fixed top-0 ">
+        <ul class=" flex  items-center justify-center h-14 border-solid border-b-4 ">
+            <!-- <li class="w-2/6 h-full"><a href="#" class="bg-cores-texto w-full h-full border-solid border-r-2 hover:bg-cores-fundo active:bg-cores-titulo focus:bg-cores-titulo flex justify-center items-center"><img src="./images/align-justify.svg" alt="Menu"></a></li> -->
+            <li class="w-2/6 h-full"><a href="#" class=" w-full h-full flex justify-center pointer-events-none items-center"><img src="./images/github.svg" alt="Logo"></a></li>
+            <!-- <li class="w-2/6 h-full"><a href="#" class="bg-cores-texto w-full h-full hover:bg-cores-fundo active:bg-cores-titulo focus:bg-cores-titulo flex justify-center items-center"><img src="./images/instagram.svg" alt="Instagram"></a></li> -->
+        </ul>
+    </header>
+    <section class="bg-cores-titulo flex flex-col items-center  w-full h-64 p-10 text-center">
+        <h1 class="text-2xl">Olá, seja bem vindo!</h1>
+        <p class="pb-4">A psicoterapia pode ser o primeiro passo em direção a um olhar com cuidado para si mesma, buscando por mais autonomia e liberdade em suas vivências. </p>
+        <a class="bg-cores-fundo w-8/12 rounded-xl p-2 hover:bg-cores-texto2 active:bg-cores-texto focus:bg-cores-texto focus:ring ring-cores-texto2" href="#">Faça seu agendamento!</a>
+    </section>
+    <section class="bg-cores-texto flex items-center justify-evenly w-full h-64 p-10 text-center">
+        <div class="w-1/2 flex flex-col justify-center ">
+            <p class="pb-4 text-xs md:text-xl">Eu sou a Amanda, sou psicóloga (CRP: 08/32302) e fico feliz com a sua presença por aqui!
+                Me sinto honrada por seu interesse em compartilhar comigo esse processo que, apesar de desafiador, faz parte de uma trajetória transformadora e significativa. </p>
+        </div>
+        <img class="h-full" src="./images/github.svg" alt="">
+    </section>
+    <section class="bg-cores-texto2 flex justify-evenly  items-center  w-full h-64 p-10 text-center">
+        <div class="border-solid border-r-2 border-black">
+            <h2 class="text-2xl uppercase">Tipos de atendimento</h2>
+            <ul>
+                <li class="text-xl">atendimento 1</li>
+                <li class="text-xl">atendimento 2</li>
+                <li class="text-xl">atendimento 3</li>
+                <li class="text-xl">atendimento 4</li>
+            </ul>
+        </div>
+
+        <div class="pl-4">
+            <h2 class="text-2xl uppercase">contatos</h2>
+            <ul class="flex gap-10 pt-12 ">
+                <li><a href="https://www.instagram.com/saramascarenhas_psi/"><img src="./images/instagram.svg" alt=""></a>
+                <li><a href="https://wa.me/5585999103643?text=Ol%C3%A1,poderia%20tirar%20umas%20duvidas?"><img src="./images/whatsapp-3.svg" alt=""></a></li>
+            </ul>
+        </div>
+        
+        
+    </section>
+    <footer class=" p-2 flex items-center justify-center">
+        <h3>Todos os direitos reservados</h3></footer>
+</body>
+</html>
